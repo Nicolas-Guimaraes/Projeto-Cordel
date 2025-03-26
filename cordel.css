@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
+/*body*/
 *{
     margin: 0px;
     padding: 0px;
@@ -17,6 +17,7 @@ html body{
     background: white url(pacote/imagens/background001.jpg) no-repeat top center fixed;
     background-size: cover;
 }
+/*Header*/
 header{
     background-color: black;
     color: whitesmoke;
@@ -34,11 +35,11 @@ Header > h1{
     
 }
 
-
 Header > p{
     margin:auto;
     width:fit-content
 }
+/*Links*/
 a{
     color: whitesmoke;
     text-decoration: none;
@@ -48,22 +49,23 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
+/*Contéudo principal*/
 Main{
     font-family:'Sriracha', 'Courier New', Courier, monospace;
     font-size: 2vw;
 }
 
-section.fundo-branco{
-    background-color: whitesmoke;
-    padding: 55px 15px;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.264)
-}
 
 section{
     padding: 10vh 30px;
     line-height: 2em;
 }
+
+section.fundo-branco{
+    background-color: whitesmoke;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.264)
+}
+
 section.fundo-imagem{
     background-color: transparent;
     color: whitesmoke;
@@ -74,8 +76,7 @@ section.fundo-imagem > p{
     width: fit-content;
     padding: 5px;
 }
-
-
+/*Rodapé*/
 footer{
     background-color: black;
     color:whitesmoke;
