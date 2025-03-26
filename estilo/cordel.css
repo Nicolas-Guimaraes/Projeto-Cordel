@@ -12,10 +12,6 @@
 
 html body{
     min-width: 100vh;
-    background: white url(pacote/imagens/background002.jpg) no-repeat bottom center fixed;
-    background-size: cosection;
-    background: white url(pacote/imagens/background001.jpg) no-repeat top center fixed;
-    background-size: cover;
 }
 /*Header*/
 header{
@@ -53,12 +49,17 @@ a:hover{
 Main{
     font-family:'Sriracha', 'Courier New', Courier, monospace;
     font-size: 2vw;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.249);
 }
 
 
 section{
     padding: 10vh 30px;
     line-height: 2em;
+}
+
+section p{
+    padding-bottom: 15px;
 }
 
 section.fundo-branco{
@@ -69,12 +70,21 @@ section.fundo-branco{
 section.fundo-imagem{
     background-color: transparent;
     color: whitesmoke;
+    background-size: cover;
 }
 
 section.fundo-imagem > p{
     background-color: rgba(128, 128, 128, 0.212);
     width: fit-content;
     padding: 5px;
+}
+
+section#img1{
+    background: white url(../pacote/imagens/background001.jpg) no-repeat center center fixed;
+}
+
+section#img2{
+    background: white url(../pacote/imagens/background002.jpg) no-repeat center center fixed;
 }
 /*Rodapé*/
 footer{
