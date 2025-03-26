@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 150px;
+    padding: 30px;
+}
+
+Header > h1{
+    width:fit-content;
+    margin: auto;
+    margin-top:30px;
+    font-family: 'Passion One','Times New Roman', Times, serif;
+    font-size: 4em;
+}
+
+Header > h1::first-letter{
+    font-size: 1.5em;
+}
+
+Header > a{
+    color: whitesmoke;
+    display: block;
+    width:fit-content;
+    text-decoration: none;
+    margin: auto;
+    font-weight: 600;
+}
+
+Header > a::before{
+    content: 'Por\00A0\00A0';
+}
+
+Header > a:hover{
+    text-decoration: underline;
+
+}
